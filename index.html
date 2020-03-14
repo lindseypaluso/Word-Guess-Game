@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+        <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container mx-auto p-0">
+            <div class="container-fluid card mt-5 text-center header">
+                <h1 class="title">
+                    Things to Buy in a Pandemic
+                </h1>
+            </div>
+            <div class="container game-container">
+                <div class="row">
+                    <div class="col-6 text-center">
+                        <img class="game-img mt-3" src="assets/images/cov19.jpg" alt="" />
+                    </div>
+                    <div class="col-6 text-center card game">
+                        <h3>Press any key to start!</h3>
+                        <div class="wins">
+                            <h3>Wins</h3>
+                            <h5 id="wins">0</h5>
+                        </div>
+                        <div class="currentWord">
+                            <h3>Current Word</h3>
+                            <h5 id="word" class="word">
+                                &nbsp;
+                            </h5>
+                        </div>
+                        <div class="numberOfGuesses">
+                            <h3>Number of guesses remaining</h3>
+                            <h5 id="guesses">15</h5>
+                        </div>
+                        <div class="lettersGuessed">
+                            <h3>Letters already guessed</h3>
+                            <h5 id="letters">&nbsp;</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</html>

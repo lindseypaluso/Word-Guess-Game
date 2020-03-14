@@ -1,0 +1,26 @@
+
+
+.header {
+    border-style: dotted;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.game {
+    border-style: dotted;
+    padding: 1rem;
+}
+
+.word {
+    letter-spacing: .5rem;
+    white-space: pre;
+}
+
+#letters {
+    letter-spacing: 1rem;
+}
+
+.game-img {
+    max-width: 386px;
+    border-style: solid
+}
